@@ -101,15 +101,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "sleepybee졸린벌"
+  name             : "졸린벌sleepybee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Mobile application developer."
   location         : "South Korea"
   email            : "sleepybee410@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sleepybee410@gmail.com"
+      # url: "mailto:sleepybee410@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
