@@ -33,6 +33,7 @@ layout: default
         </header>
       {% endunless %}
 
+      <div>
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
@@ -45,6 +46,7 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
+      </div>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
@@ -54,11 +56,10 @@ layout: default
         {% include page__date.html %}
       </footer>
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
       {% include post_pagination.html %}
     </div>
 
+    <div>
     <script src="https://utteranc.es/client.js"
     repo="sleepybee/dev-log-comments"
     issue-term="pathname"
@@ -66,7 +67,10 @@ layout: default
     theme="github-light"
     crossorigin="anonymous"
     async>
-</script>
+    </script>
+    </div>
+    <br><br>
+
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
@@ -74,7 +78,7 @@ layout: default
 
   {% comment %}
 {% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
+  <!-- {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
       <div class="grid__wrapper">
@@ -82,9 +86,9 @@ layout: default
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
-    </div>
+    </div> -->
   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
-  {% elsif page.id and page.related %}
+  <!-- {% elsif page.id and page.related %}
     <div class="page__related">
       <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
       <div class="grid__wrapper">
@@ -96,5 +100,5 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% endif %}
+  {% endif %} -->
 </div>
