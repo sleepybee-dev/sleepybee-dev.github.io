@@ -5,11 +5,11 @@ layout: archive
 <!-- {{ content }} -->
 
 <ul class="taxonomy__index">
-  <!-- {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %} -->
-  {% for category in site.categories %}
+  {% assign postsTagHas = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for category in postsTagHas %}
     <li>
-      <a href="#{{ category | first }}">
-        <strong>{{ category | first }}</strong> <span class="taxonomy__count">{{ category | last | size }}</span>
+      <a href="#{{ category[0] }}">
+        <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ category[1] | size }}</span>
       </a>
     </li>
   {% endfor %}
@@ -18,12 +18,12 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <!-- {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %} -->
 {% for category in site.categories %}
-  <section id="{{ category | first }}" class="taxonomy__section">
-    <img src="/assets/img/{{category | first}}.png" width="48px" itemprop="image"/>
-    <h1 class="archive__subtitle" style="display:inline">{{ category | first }}</h1>
+  <section id="{{ category[0] }}" class="taxonomy__section">
+    <img src="/assets/img/{{category[0]}}.png" width="48px" itemprop="image">
+    <h1 class="archive__subtitle" style="display:inline">{{ category[0] }}</h1>
     <br><br>
     <div class="entries-{{ entries_layout }}">
-      {% for post in category.last %}
+      {% for post in category[1] %}
         {% include archive-single.html type=entries_layout %}
       {% endfor %}
     </div>
