@@ -7,10 +7,6 @@ layout: default
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
-<head>
-<link rel="stylesheet" href="/assets/css/applause-button.css" />
-<script src="/assets/css/applause-button.js"> </script>
-</head>
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
@@ -29,7 +25,7 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.categories %}
+          {% if page.categories.size > 0 %}
           <img src="/assets/img/{{ page.categories | first}}.png" width="32px" itemprop="image"/>
           {% endif %}
           {% if page.title %}<h1 style="display:inline" id="page-title" class="page__title p-name" itemprop="headline">
@@ -54,7 +50,6 @@ layout: default
       </section>
 
       <footer class="page__meta">
-      <applause-button style="width: 58px !important; height: 58px;"/>
       <a href="https://donaricano.com/mypage/1847144274_VnydNK" target="_blank">
         <img
          src="https://d1u4yishnma8v5.cloudfront.net/custom/-c2xlZXB5YmVlQGtha2FvLmNvbQ%3D%3D"
