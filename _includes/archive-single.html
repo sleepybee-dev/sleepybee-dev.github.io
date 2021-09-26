@@ -23,8 +23,12 @@
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      <span class="archive__item-title subtitle">
+      {% if post.date %}
+        {{ post.date | date_to_long_string }}
+      {% endif %}
+    </span>
     </h2>
-    {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>

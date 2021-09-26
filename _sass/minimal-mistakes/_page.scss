@@ -13,6 +13,7 @@
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+  text-decoration: none;
 
   @include breakpoint($x-large) {
     max-width: $max-width;
@@ -20,6 +21,7 @@
 }
 
 body {
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,8 +71,9 @@ body {
 }
 
 .page__title {
-  margin-top: 0;
-  line-height: 1;
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 3;
 
   a {
     color: $text-color;
