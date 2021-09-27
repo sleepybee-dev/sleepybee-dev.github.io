@@ -19,7 +19,7 @@ layout: archive
 <!-- {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %} -->
 {% for category in site.categories %}
   <section id="{{ category | first }}" class="taxonomy__section">
-    <img src="/assets/img/{{category | first}}.png" width="48px" itemprop="image"/>
+    <img src="/assets/img/{{category | first}}.png" width="60px" itemprop="image"/>
     <h1 class="archive__subtitle" style="display:inline">{{ category | first }}</h1>
     <br><br>
     <div class="entries-{{ entries_layout }}">

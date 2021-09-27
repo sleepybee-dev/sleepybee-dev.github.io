@@ -26,9 +26,10 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.categories.size > 0 %}
-          <img src="/assets/img/{{ page.categories | first}}.png" width="32px" itemprop="image"/>
+          <img src="/assets/img/{{ page.categories | first}}.png" width="60px" itemprop="image"/>
           {% endif %}
-          {% if page.title %}<h1 style="display:inline" id="page-title" class="page__title p-name" itemprop="headline">
+          {% if page.title %}
+          <h1 style="display:inline" id="page-title" class="page__title p-name" itemprop="headline">
             {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
           </h1>{% endif %}<br>
           {% include page__meta.html %}
