@@ -1,7 +1,7 @@
 {
   "name": "sleepybee-dev-log",
   "private": false,
-  "description": "gatsby-starter-hoodie is a gatsby theme developed for developers to write tech blogs.",
+  "description": "",
   "homepage": "https://sleepybee-dev.github.io/sleepybee-dev-log/",
   "version": "0.1.0",
   "author": "sleepybee",
@@ -74,7 +74,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy-gh": "gatsby build && gh-pages -d public",
+    "deploy-gh": "gatsby build && gh-pages -d main",
     "deploy-gh-prefix-paths": "gatsby build --prefix-paths && gh-pages -d public",
     "check:lint": "eslint . --ext .js,.jsx",
     "fix:lint": "eslint . --fix --ext .js,.jsx",
