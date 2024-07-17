@@ -1,23 +1,13 @@
 module.exports = {
-  title: "hoodie",
-  description: "Hello :) I'm Hudi who developed gatsby-starter-hoodie theme.",
-  author: "Hudi",
+  title: "sleepybee-dev-log",
+  description: "안드로이드 개발 / 약간의 일상",
+  author: "sleepybee",
   siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
   links: {
-    github: "https://github.com/devHudi",
-    linkedIn: "https://linkedin.com",
-    facebook: "https://www.facebook.com",
-    twitter: "https://twitter.com",
-    x: "https://x.com",
-    instagram: "https://www.instagram.com",
-    medium: "https://medium.com",
-    blogger: "https://blogger.com",
-    email: "mailto:devhudi@gmail.com",
-    resume: "https://hudi.blog",
-    link: "https://hudi.blog",
+    github: "https://github.com/sleepybee-dev",
   },
   utterances: {
-    repo: "devHudi/gatsby-starter-hoodie",
+    repo: "",
     type: "pathname",
   },
 }

@@ -198,5 +198,18 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-link-card`,
+            options: {
+              //...
+            }
+          }
+        ]
+      }
+    }
   ],
 }

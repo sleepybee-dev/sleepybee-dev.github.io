@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "29d87f37f9e1b174",
+    "type": "split",
+    "children": [
+      {
+        "id": "4332f1270a030fa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea599861b9aabe4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "221217compose/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "adb4d53909984ffa",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2af002d5351585f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dc3afdd1750f15f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b14b3c4bcc03236",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Toy-Project",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "645f2f74bcd14dad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ecc8b19f64900dd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "af125e6d2ea588e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56441528c766dd80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "221217compose/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb48f03e0507b35e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "221217compose/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb1bf11cca7ecf15",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "702b998fe98b6992",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "221217compose/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ea599861b9aabe4a",
+  "lastOpenFiles": [
+    "221217compose/compose01.jpeg",
+    "221217compose/index.md",
+    "220811plibula/index.md",
+    "220807obsidianblog/index.md",
+    "230207fluttersongdo/index.md",
+    "230127wewish/index.md",
+    "221125boostcorse/index.md",
+    "221014slide/index.md",
+    "220902getxtwitter/index.md",
+    "220819zolaseo/index.md",
+    "220818mediarecorder/index.md",
+    "220327diamonddialfab/index.md",
+    "201202picshelf/index.md",
+    "201006ptube/index.md",
+    "230207fluttersongdo/fluttersongdo.jpeg",
+    "220902getxtwitter",
+    "230207fluttersongdo",
+    "221217compose/compose03.jpeg",
+    "221217compose/compose02.jpeg",
+    "221217compose",
+    "221125boostcorse/boostcorse.png",
+    "221125boostcorse",
+    "220818mediarecorder/mediarecorder.png",
+    "220818mediarecorder",
+    "220819zolaseo/zola01.png",
+    "220819zolaseo/zola04.png",
+    "220819zolaseo/zola03.png",
+    "220819zolaseo/zola02.png",
+    "220819zolaseo",
+    "writing-guide-kr/index.md",
+    "quick-start-kr/index.md",
+    "221014slide",
+    "220807obsidianblog",
+    "other-tips/index.md",
+    "220327diamonddialfab",
+    "230127wewish",
+    "other-tips-kr/index.md",
+    "about-hoodie-kr/index.md",
+    "about-hoodie/index.md"
+  ]
+}
