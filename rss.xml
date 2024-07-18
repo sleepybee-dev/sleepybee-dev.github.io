@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of sleepybee-dev-log]]></title><description><![CDATA[안드로이드 개발 / 약간의 일상]]></description><link>https://sleepybee-dev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 17 Jul 2024 18:38:30 GMT</lastBuildDate><item><title><![CDATA[Flutter Songdo 스터디 회고]]></title><description><![CDATA[기간 2022.12.17 ~ 2023.01.28 (7주) 팀 구성 개발자 4명, 디자이너 1명, 멘토 1명 왜 스터디에 들어갔나 본래 Flutter에 관심이 많았는데 우연히 GDG 인천 DevFest에서 Flutter…]]></description><link>https://sleepybee-dev.github.io/230207fluttersongdo/</link><guid isPermaLink="false">https://sleepybee-dev.github.io/230207fluttersongdo/</guid><pubDate>Tue, 07 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;기간&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of sleepybee-dev-log]]></title><description><![CDATA[안드로이드 개발 / 약간의 일상]]></description><link>https://sleepybee-dev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Jul 2024 19:52:15 GMT</lastBuildDate><item><title><![CDATA[Flutter Songdo 스터디 회고]]></title><description><![CDATA[기간 2022.12.17 ~ 2023.01.28 (7주) 팀 구성 개발자 4명, 디자이너 1명, 멘토 1명 왜 스터디에 들어갔나 본래 Flutter에 관심이 많았는데 우연히 GDG 인천 DevFest에서 Flutter…]]></description><link>https://sleepybee-dev.github.io/230207fluttersongdo/</link><guid isPermaLink="false">https://sleepybee-dev.github.io/230207fluttersongdo/</guid><pubDate>Tue, 07 Feb 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;기간&lt;/h2&gt;
 &lt;p&gt;2022.12.17 ~ 2023.01.28 (7주)&lt;/p&gt;
 &lt;h2&gt;팀 구성&lt;/h2&gt;
 &lt;p&gt;개발자 4명, 디자이너 1명, 멘토 1명&lt;/p&gt;
@@ -571,7 +571,7 @@ github 레파지토리를 연동해서 배포해주는 시스템이 잘 돼있�
 &lt;p&gt;netlify.toml이 작성된 후 netlify에서 이 메타 파일을 한 번은 읽어주기 위함입니다.&lt;/p&gt;
 &lt;p&gt;netlify에서 만든 site를 누르면 탭 중에 &lt;code&gt;Deploys&lt;/code&gt;가 있을 것입니다.&lt;/p&gt;
 &lt;p&gt;우측 중단에 &lt;code&gt;Trigger deploy - Deploy site&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;blogguide4.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./blogguide4.png&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;5. Repository Checkout&lt;/h2&gt;
 &lt;p&gt;이제 Checkout합시다.&lt;/p&gt;
 &lt;p&gt;주의할 점은 다른 PC, 모바일과 동기화를 하려면 iCloud, OneDrive, 구글 드라이브 등 내장되어있는 클라우드 위치에 넣어야 한다는 것입니다. obsidian에서 공식 지원하는 건 iCloud 뿐이나 로컬 파일로 관리되므로 어떤 클라우드를 사용해도 무방합니다.(몇 가지 이슈가 있기는 한 모양)&lt;/p&gt;
@@ -619,12 +619,12 @@ github 레파지토리를 연동해서 배포해주는 시스템이 잘 돼있�
           &lt;div class=&quot;preview-notion-title&quot;&gt;diamond_dial_fab | Flutter package&lt;/div&gt;
           &lt;div class=&quot;preview-notion-description&quot;&gt;Diamond shaped floating action button with dials.&lt;/div&gt;
           &lt;div class=&quot;preview-notion-url&quot;&gt;
-            &lt;img class=&quot;preview-notion-favicon&quot; src=&quot;https://pub.dev/static/hash-u92ld76k/img/flutter-logo-32x32.png&quot; alt=&quot;diamond_dial_fab | Flutter package-favicon&quot;/&gt;
+            &lt;img class=&quot;preview-notion-favicon&quot; src=&quot;https://pub.dev/static/hash-kkipkgm3/img/flutter-logo-32x32.png&quot; alt=&quot;diamond_dial_fab | Flutter package-favicon&quot;/&gt;
             &lt;div class=&quot;preview-notion-link&quot;&gt;https://pub.dev/packages/diamond_dial_fab&lt;/div&gt;
           &lt;/div&gt;
         &lt;/div&gt;
         &lt;div class=&quot;preview-notion-image-wrapper&quot;&gt;
-          &lt;img class=&quot;preview-notion-image&quot; alt=&quot;diamond_dial_fab | Flutter package-image&quot; src=&quot;https://pub.dev/static/hash-u92ld76k/img/pub-dev-icon-cover-image.png&quot; /&gt;
+          &lt;img class=&quot;preview-notion-image&quot; alt=&quot;diamond_dial_fab | Flutter package-image&quot; src=&quot;https://pub.dev/static/hash-kkipkgm3/img/pub-dev-icon-cover-image.png&quot; /&gt;
         &lt;/div&gt;
       &lt;/a&gt;
     &lt;/div&gt;&lt;/p&gt;
