@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "221217compose/index.md",
+                "file": "220807obsidianblog/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "221217compose/index.md",
+                "file": "220807obsidianblog/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "221217compose/index.md",
+                "file": "220807obsidianblog/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "221217compose/index.md"
+                "file": "220807obsidianblog/index.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "ea599861b9aabe4a",
   "lastOpenFiles": [
-    "221217compose/compose01.jpeg",
+    "220327diamonddialfab/index.md",
+    "201202picshelf/index.md",
+    "201006ptube/index.md",
     "221217compose/index.md",
+    "221217compose/compose01.jpeg",
     "220811plibula/index.md",
     "220807obsidianblog/index.md",
     "230207fluttersongdo/index.md",
@@ -159,9 +162,6 @@
     "220902getxtwitter/index.md",
     "220819zolaseo/index.md",
     "220818mediarecorder/index.md",
-    "220327diamonddialfab/index.md",
-    "201202picshelf/index.md",
-    "201006ptube/index.md",
     "230207fluttersongdo/fluttersongdo.jpeg",
     "220902getxtwitter",
     "230207fluttersongdo",

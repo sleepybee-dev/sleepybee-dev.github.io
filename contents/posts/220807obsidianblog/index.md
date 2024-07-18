@@ -77,7 +77,7 @@ netlify에서 만든 site를 누르면 탭 중에 `Deploys`가 있을 것입니�
 
 우측 중단에 `Trigger deploy - Deploy site`
 
-![](blogguide4.png)
+![](./blogguide4.png)
 
 ## 5. Repository Checkout
 
