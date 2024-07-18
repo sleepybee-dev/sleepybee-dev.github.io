@@ -79,7 +79,9 @@
     "check:lint": "eslint . --ext .js,.jsx",
     "fix:lint": "eslint . --fix --ext .js,.jsx",
     "check:prettier": "prettier -c .",
-    "fix:prettier": "prettier -c --write ."
+    "fix:prettier": "prettier -c --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
