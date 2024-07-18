@@ -88,7 +88,7 @@ netlify에서 만든 site를 누르면 탭 중에 `Deploys`가 있을 것입니�
 제 경우 iCloud를 씁니다.
 
 옵시디언을 설치하면 기본적으로 있는 Obsidian 폴더 안에 레파지토리를 Checkout했습니다.
-  
+
 
 ![](blogguide2.png)
 
