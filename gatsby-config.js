@@ -70,6 +70,12 @@ module.exports = {
         gfm: true,
         plugins: [
           {
+            resolve: `gatsby-remark-link-card`,
+            options: {
+              //...
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 680,
@@ -199,18 +205,5 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-link-card`,
-            options: {
-              //...
-            }
-          }
-        ]
-      }
-    }
   ],
 }

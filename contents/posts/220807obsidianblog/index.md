@@ -74,7 +74,7 @@ github 레파지토리를 연동해서 배포해주는 시스템이 잘 돼있�
 netlify.toml이 작성된 후 netlify에서 이 메타 파일을 한 번은 읽어주기 위함입니다.
 
 netlify에서 만든 site를 누르면 탭 중에 `Deploys`가 있을 것입니다.
-
+ 
 우측 중단에 `Trigger deploy - Deploy site`
 
 ![](./blogguide4.png)
